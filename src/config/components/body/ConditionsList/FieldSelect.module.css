@@ -1,0 +1,9 @@
+.fieldSelectArea {
+  width: 34%;
+  margin-right: 2px;
+}
+
+.codeText {
+  font-size: smaller;
+  color: rgba(0, 0, 0, 0.65);
+}

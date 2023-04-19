@@ -1,0 +1,27 @@
+.settingArea {
+  min-height: 150px;
+  width: 100%;
+  box-shadow: 2px 5px 5px 5px #758bfd33;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  background-color: #f6f7fb;
+  max-width: 990px;
+}
+
+.settingRow1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.settingRow2 {
+  display: flex;
+  align-items: stretch;
+}
+
+.separator {
+  border-left: 1px solid #758bfd33;
+  margin-left: 2px;
+  margin-right: 2px;
+}

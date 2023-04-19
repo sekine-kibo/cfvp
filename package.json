@@ -1,0 +1,37 @@
+{
+  "name": "kintone-plugin-template-minimum",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node scripts/npm-start.js",
+    "upload": "kintone-plugin-uploader dist/plugin.zip --watch --waiting-dialog-ms 3000",
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "lint": "eslint src/*/*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@cybozu/eslint-config": "^17.0.1",
+    "@kintone/plugin-packer": "^6.0.0",
+    "@kintone/webpack-plugin-kintone-plugin": "^6.0.3",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.15.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
+    "@reduxjs/toolkit": "^1.8.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.0.2",
+    "uuid": "^8.3.2"
+  }
+}

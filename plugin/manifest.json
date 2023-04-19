@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": ["desktop.js"]
+  },
+  "icon": "icon.png",
+  "config": {
+    "html": "config.html",
+    "js": ["config.js"]
+  },
+  "name": {
+    "en": "Control Fields Visibility Plug-in",
+    "ja": "条件付き表示制御プラグイン"
+  },
+  "description": {
+    "en": "Control Fields Visibility Plug-in"
+  }
+}

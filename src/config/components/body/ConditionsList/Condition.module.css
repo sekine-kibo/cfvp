@@ -1,0 +1,7 @@
+.conditionArea {
+  border-left: 2px solid #dca43c;
+  padding: 2px 4px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 7px;
+}
